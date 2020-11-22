@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="Bing.EventBus._shared.props" />
+
+  <Import Project="..\..\..\common.props" />
+
+  <ItemGroup>
+    <Folder Include="Bing\EventBus\Local\" />
+  </ItemGroup>
+
+</Project>
