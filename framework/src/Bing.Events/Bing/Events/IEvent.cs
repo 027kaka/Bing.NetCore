@@ -16,10 +16,5 @@ namespace Bing.Events
         /// 事件时间
         /// </summary>
         DateTime Time { get; }
-
-        /// <summary>
-        /// 获取事件名称
-        /// </summary>
-        string GetEventName();
     }
 }

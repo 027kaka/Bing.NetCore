@@ -202,6 +202,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bing.Caching.FreeRedis", "f
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bing.Admin.FreeSQL", "modules\admin\src\Bing.Admin.FreeSQL\Bing.Admin.FreeSQL.csproj", "{872470DC-8FC6-4AD4-BE9E-F3F2CA9DC616}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bing.EventBus", "framework\src\Bing.EventBus\Bing.EventBus.csproj", "{41081642-06B9-4CC1-984E-641C314560FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -452,6 +454,10 @@ Global
 		{872470DC-8FC6-4AD4-BE9E-F3F2CA9DC616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{872470DC-8FC6-4AD4-BE9E-F3F2CA9DC616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{872470DC-8FC6-4AD4-BE9E-F3F2CA9DC616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41081642-06B9-4CC1-984E-641C314560FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41081642-06B9-4CC1-984E-641C314560FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41081642-06B9-4CC1-984E-641C314560FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41081642-06B9-4CC1-984E-641C314560FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -540,6 +546,7 @@ Global
 		{7A4966A7-BE64-4589-8FD3-59AA8869A30F} = {B5285F1C-479F-43F5-B3DE-3E930516AF6D}
 		{591D9280-33FD-4090-AFBE-D513A2A18316} = {9559AE76-7924-4647-8619-35EE39569D6C}
 		{872470DC-8FC6-4AD4-BE9E-F3F2CA9DC616} = {DB31385F-49B0-49FB-946A-DBAD2A070B7A}
+		{41081642-06B9-4CC1-984E-641C314560FA} = {B5285F1C-479F-43F5-B3DE-3E930516AF6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1202A0F-83CC-4602-BCE5-20CB640BCAD4}

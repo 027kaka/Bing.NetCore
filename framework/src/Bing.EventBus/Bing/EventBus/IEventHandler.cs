@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Bing.Events.Handlers
+namespace Bing.EventBus
 {
     /// <summary>
     /// 事件处理器
@@ -13,12 +13,12 @@ namespace Bing.Events.Handlers
     /// 事件处理器
     /// </summary>
     /// <typeparam name="TEvent">事件类型</typeparam>
-    public interface IEventHandler<in TEvent> : IEventHandler where TEvent : IEvent
+    public interface IEventHandler<in TEvent> where TEvent : class
     {
         /// <summary>
-        /// 处理事件
+        /// 处理
         /// </summary>
-        /// <param name="event">事件</param>
-        Task HandleAsync(TEvent @event);
+        /// <param name="eventData">事件数据</param>
+        Task HandleAsync(TEvent eventData);
     }
 }

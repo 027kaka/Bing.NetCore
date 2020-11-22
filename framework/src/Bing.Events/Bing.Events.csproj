@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="Bing.Events._shared.props"/>
+  <Import Project="Bing.Events._shared.props" />
 
-  <Import Project="..\..\..\common.props"/>
+  <Import Project="..\..\..\common.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bing.Abstractions\Bing.Abstractions.csproj" />
+  </ItemGroup>
 
 </Project>
