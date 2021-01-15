@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="Bing.EntityFrameworkCore._shared.props" />
+
+  <Import Project="..\..\..\framework.props" />
+
+  <ItemGroup>
+    <Folder Include="Bing\EntityFrameworkCore\" />
+  </ItemGroup>
+
+</Project>

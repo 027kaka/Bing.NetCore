@@ -17,9 +17,6 @@ namespace Bing.Configuration
         /// 初始化一个<see cref="OptionsTypeAttribute"/>类型的实例
         /// </summary>
         /// <param name="sectionName">配置节点名称</param>
-        public OptionsTypeAttribute(string sectionName = null)
-        {
-            SectionName = sectionName;
-        }
+        public OptionsTypeAttribute(string sectionName = null) => SectionName = sectionName;
     }
 }
